@@ -4,7 +4,7 @@ A TodoList using Node.js, Express.js, MongoDB, jQuery and Bootstrap styling.
 To get started with this app, you will need Node.js and NPM. After doing a git clone or downloading the repo,type the following npm commands in your terminal to install the dependencies:
 
 <code>
-npm install --save
+npm install
 </code>
 
 If you do not already have Bower installed, you can install with:

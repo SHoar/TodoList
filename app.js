@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const bodyParser = require('body-parser')
 
-const port = 4040;
+const port = process.env.PORT || 4040
 //Init app
 const app = express();
 const MongoClient = require('mongodb').MongoClient;
